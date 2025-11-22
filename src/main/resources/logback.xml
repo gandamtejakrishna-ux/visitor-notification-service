@@ -1,0 +1,22 @@
+<configuration>
+
+    <!-- Silence Kafka consumer spam -->
+    <logger name="org.apache.kafka" level="WARN" />
+    <logger name="org.apache.pekko.kafka" level="WARN" />
+
+    <!-- Pekko internals (optional) -->
+    <logger name="org.apache.pekko" level="ERROR" />
+
+    <!-- Root logger -->
+    <root level="INFO">
+        <appender-ref ref="STDOUT" />
+    </root>
+
+    <!-- Console appender -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d %-5level %logger - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+</configuration>

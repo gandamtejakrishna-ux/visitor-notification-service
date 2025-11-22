@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <option name="separateProdTestSources" value="true" />
+    <profile name="sbt 1" modules="visitor-notification-service,visitor-notification-service.main,visitor-notification-service.test,visitor-notification-service_185,visitor-notification-service_185.main,visitor-notification-service_185.test" />
+  </component>
+</project>
